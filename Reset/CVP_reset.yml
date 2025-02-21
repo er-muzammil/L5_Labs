@@ -3,7 +3,7 @@
   hosts: cvp1
 
   vars_files:
-    - ../vars/CVP_model.yml
+    - ../vars/CVP_model.ymlcd /
   tasks:
     - name: Upload dummy configlet
       arista.cvp.cv_configlet_v3:
